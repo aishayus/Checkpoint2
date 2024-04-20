@@ -1,0 +1,487 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+header{
+    background-color: black;
+}
+
+nav h1{
+    font-size: 30px;
+    color: white;
+}
+
+nav input{
+    display: none;
+}
+
+nav ul{
+    display: none;
+}
+
+nav button{
+    display: none;
+}
+
+nav i{
+    color: white;
+    font-size: 35px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 20px 20px;
+}
+
+.phone{
+    color: white;
+    background-color: black;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.phone1{
+    height: 650px;
+    position: relative;
+}
+
+.phone1 img{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.phone1 h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.phone1 p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.phone1 button{
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: orange;
+    color: white;
+    border: solid 1px orange;
+    position: absolute;
+    right: 10%;
+}
+
+.phone2{
+    height: 650px;
+    position: relative;
+}
+
+.phone2 img{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.phone2 h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.phone2 p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.phone2 button{
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: orange;
+    color: white;
+    border: solid 1px orange;
+    position: absolute;
+    right: 10%;
+}
+
+.phone3{
+    height: 650px;
+    position: relative;
+}
+
+.phone3 img{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.phone3 h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.phone3 p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.phone3 button{
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: orange;
+    color: white;
+    border: solid 1px orange;
+    position: absolute;
+    right: 10%;
+}
+
+.phone4{
+    height: 650px;
+    position: relative;
+}
+
+.phone4 img{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.phone4 h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.phone4 p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.phone4 button{
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: orange;
+    color: white;
+    border: solid 1px orange;
+    position: absolute;
+    right: 10%;
+}
+
+.hp{
+    color: white;
+    background-color: black;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.hp1{
+    height: 650px;
+    position: relative;
+}
+
+.hp1 img{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.hp1 h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.hp1 p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.hp1 button{
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: orange;
+    color: white;
+    border: solid 1px orange;
+    position: absolute;
+    right: 10%;
+}
+
+.hp2{
+    height: 650px;
+    position: relative;
+}
+
+.hp2 img{
+    width: 100%;
+    margin: 40px 0px;
+    height: 307px;
+}
+
+.hp2 h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.hp2 p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.hp2 button{
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: orange;
+    color: white;
+    border: solid 1px orange;
+    margin-left: 30px;
+    position: absolute;
+    right: 10%;
+}
+
+.hp3{
+    height: 650px;
+    position: relative;    
+}
+
+.hp3 img{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.hp3 h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.hp3 p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.hp3 button{
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: orange;
+    color: white;
+    border: solid 1px orange;
+    position: absolute;
+    right: 10%;
+}
+
+.hp4{
+    height: 650px;
+    position: relative;
+}
+
+.hp4 img{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.hp4 h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.hp4 p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.hp4 button{
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: orange;
+    color: white;
+    border: solid 1px orange;
+    position: absolute;
+    right: 10%;
+}
+
+button:hover{
+    background-color: rgb(170, 113, 8);
+    border: solid 1px  rgb(170, 113, 8);
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+}
+
+footer h1{
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+footer p{
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer i{
+    color: white;
+    font-size: 20px;
+}
+
+.foot2 p{
+    padding-top: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 728px) {
+
+    nav h1{
+        font-size: 30px;
+    }
+
+    nav ul{
+        display: flex;
+        padding-right: 40px;
+    }
+
+    nav input{
+        display: flex;
+        width: 600px;
+        height: 30px;
+    }
+
+    .bx-search{
+        display: none;
+    }
+
+    nav li{
+        list-style: none;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding-left: 50px;
+    }
+
+    .phone{
+        margin-top: 50px;
+    }
+
+    #Phones{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+                            "phone1 phone2 phone3 phone4"
+                            "phone1 phone2 phone3 phone4"
+                            "phone1 phone2 phone3 phone4";
+    }
+
+
+    .phone1{
+        grid-area: phone1;
+    }
+
+    .phone2{
+        grid-area: phone2;
+    }
+
+    .phone3{
+        grid-area: phone3;
+    }
+
+    .phone4{
+        grid-area: phone4;
+    }
+
+    .hp{
+        margin-top: 50px;
+    }
+
+    #Headphones{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+                            "hp1 hp2 hp3 hp4"
+                            "hp1 hp2 hp3 hp4"
+                            "hp1 hp2 hp3 hp4";
+    }
+
+
+    .hp1{
+        grid-area: hp1;
+    }
+
+    .hp2{
+        grid-area: hp2;
+    }
+
+    .hp3{
+        grid-area: hp3;
+    }
+
+    .hp4{
+        grid-area: hp4;
+    }
+
+    footer{
+        position: relative;
+    }
+
+    .foot1 ul{
+        display: flex;
+    }
+
+    .foot i{
+        padding-right: 30px;
+    }
+
+    .foot2 p{
+        font-size: 15px;
+    }
+
+}
